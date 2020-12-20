@@ -1,0 +1,11 @@
+<ion-content [fullscreen]="true">
+  <div id="container">
+    <div id="header">Scopri quale personaggio di Rick e Morty ti assomiglia di più</div>
+    <div class="results">
+      <img src="{{sourceURL}}"/>
+      <img src="{{resultURL}}" />
+      <span id="result-desc">{{character}}</span>
+    </div>
+    <ion-button (click)="getCamera()" strong="true" >{{buttonMessage}}</ion-button>
+  </div>
+</ion-content>

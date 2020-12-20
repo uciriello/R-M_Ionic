@@ -1,0 +1,8 @@
+{
+  "name": "RickAndMorty_Ionic",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "angular"
+}
